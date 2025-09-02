@@ -1,0 +1,48 @@
+body{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content:center;
+}
+.box{
+    margin:10px;
+    height: 150px;
+    width: 150px;
+    border: 10px solid black;
+    border-radius: 20%;
+    box-shadow: 10px 5px 10px #124170;
+   
+   
+}
+.line-one{
+    margin: 5px;
+}
+.line-two{
+    margin: 5px;
+}
+.yellow{
+    background-color: #f99b45;
+}
+.red{
+    background-color: #d95980;
+}
+.purple{
+    background-color:purple;
+}
+.green{
+    background-color: #63aac0;
+}
+.flash{
+    background-color: white;
+}
+.user{
+    background-color:white;
+}
+.box:hover{
+    box-shadow: 10px 5px 10px goldenrod;
+    opacity: 0.8;
+}
+.click{
+    background-color: white;
+}
